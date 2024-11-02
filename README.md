@@ -46,7 +46,7 @@ We welcome contributions from the community! If you'd like to contribute, please
 5. **Open a pull request.**
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the LICENSE file for details.
 You can directly copy-paste this into your `README.md` file on GitHub. If there's anything else you need, just let me know. 🚀📘
 
 ## Website after running it locally or after hosting
