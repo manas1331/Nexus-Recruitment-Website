@@ -48,3 +48,22 @@ We welcome contributions from the community! If you'd like to contribute, please
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 You can directly copy-paste this into your `README.md` file on GitHub. If there's anything else you need, just let me know. 🚀📘
+
+## Website after running it locally or after hosting
+
+![image](https://github.com/user-attachments/assets/8010ad6f-990a-403b-8020-93496c84d119)
+
+----
+
+![image](https://github.com/user-attachments/assets/717ab9ae-a906-4bcc-a166-2dec4c6ba2f7)
+
+----
+
+![image](https://github.com/user-attachments/assets/703c4894-b982-4110-83e5-cd0836e59635)
+
+----
+
+
+----
+
+![image](https://github.com/user-attachments/assets/8065a380-fa86-48bf-8982-7a00748ac065)
