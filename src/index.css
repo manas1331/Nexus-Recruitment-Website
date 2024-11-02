@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-base: 'Poppins', sans-serif;
+  --primary-color: #6c5ce7; /* Soft purple */
+  --secondary-color: #fdcb6e; /* Soft yellow */
+  --accent-color: #00b894; /* Teal */
+  --black-color: #2d3436; /* Darker black */
+  --grey-color: #b2bec3; /* Light grey */
+  --white-color: #ffffff; /* White */
+  --whitesmoke-color: #dfe6e9; /* Light background */
+  --transition: all 300ms ease-in-out;
+  --shadow-light: rgba(0, 0, 0, 0.1);
+  --shadow-dark: rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-family: var(--font-base);
+  color: var(--black-color);
+  background: linear-gradient(to right, var(--whitesmoke-color), var(--white-color));
+  padding: 1rem; /* Add padding for better layout */
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+button {
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  padding: 0.8rem 1.5rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px var(--shadow-light);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+  box-shadow: 0 6px 12px var(--shadow-dark);
+}
+
+input, textarea {
+  outline: 0;
+  border: 1px solid var(--grey-color);
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 1.6rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing only */
+}
+
+section {
+  padding: 2rem 0; /* Add spacing around sections */
+}
+
+/* Add card styles for better content presentation */
+.card {
+  background-color: var(--white-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 20px var(--shadow-light);
+  padding: 2rem;
+  margin: 1.5rem 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adding hover effects for cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px var(--shadow-dark);
+}
+
+/* Adding media queries for responsiveness */
+@media (max-width: 768px) {
+  body {
+    font-size: 1.6rem; /* Slightly smaller font size on smaller screens */
+  }
+
+  button {
+    font-size: 1.6rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
