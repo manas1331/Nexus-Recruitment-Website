@@ -1,5 +1,9 @@
 # Nexus Tech Club Website
 
+## Website Link (View the Website here)
+
+https://672716d615ea817ca6bdf372--effortless-dusk-e85654.netlify.app/index.html
+
 ## Overview
 This project is a website for the Nexus Tech Club, built using React.js. The website showcases club activities, events, and resources for members.
 
